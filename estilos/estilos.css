@@ -1,3 +1,96 @@
-body{
-    background : green;
+* {
+  margin: 0;
+  padding: 0;
+}
+header,
+section,
+aside,
+article,
+hgroup,
+nav,
+footer {
+  display: block;
+  
+}
+#cabecera h1 {
+  text-align: left;
+  padding: 20px;
+  padding-left: 2px;
+  background-color: cornsilk;
+}
+body {
+  background-color:black;
+}
+div {
+  background-color:white;
+
+  width: 1250px;
+  height: 900px;
+
+  margin: 30px 30px;
+  border: solid 1px black;
+}
+
+.menu {
+  background-color: lightgray;
+  padding: 2px 15px;
+  border: solid 1px black;
+}
+.menu li {
+  list-style: none;
+  
+  padding: 5px 5px;
+  font: bold 14px verdana;
+  display: inline-block;
+  text-align: left;
+}
+.Seccion {
+  
+  margin: 20px;
+  width: 60%;
+  float: left;
+
+
+}
+img {
+  width: 130px;
+}
+.adicional{
+    margin:  80px ;
+
+}
+.adicional p{
+    
+    margin: 50px 80px;
+    
+  text-align: right;
+  width: 20%;
+  
+  float: left;
+}
+
+article{
+
+    background-color:floralwhite;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+.parrafotexto{
+ 
+    background-color: lightgrey;
+    padding: 5px;
+}
+hgroup{
+    padding: 10px;;
+}
+article p,time,address{
+margin: 10px ;
+}
+#derechos{
+    padding: 18px;
+    background-color:gold;
+    color: aliceblue;
+    text-align: center;
+    clear: both;
 }
